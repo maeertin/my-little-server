@@ -42,17 +42,3 @@ var server = http.createServer(function(request, response) {
 
 server.listen(port)
 console.info('==> 🌎 Listening on port %s.', port)
-
-// ---------------------------------------------
-// Client
-
-/*
-fetch('http://192.168.1.126:port', {
-	method  : 'post',
-	headers : {
-		Accept         : 'application/json',
-		'Content-Type' : 'application/json'
-	},
-	body : JSON.stringify(data)
-})
-*/
